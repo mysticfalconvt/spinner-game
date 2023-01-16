@@ -25,6 +25,25 @@ export default function Home() {
             </div>
           </nav>
           <Spinner />
+          <footer className="footer  bg-base-300 content-center justify-center">
+            <div className="flex-1 flex w-full navbar-start mx-11 py-2 self-center place-content-between">
+              <button className="btn btn-primary p-x-5 whitespace-nowrap text-xl">
+                <a href="https://notacult.social/@rboskind">
+                  Follow me on Mastodon
+                </a>
+              </button>
+              <button className="btn btn-primary p-x-5 whitespace-nowrap text-xl">
+                <a href="https://cassidoo.co/">
+                  Cassidoo - The bright idea behind this
+                </a>
+              </button>
+              <button className="btn btn-primary p-x-5 whitespace-nowrap text-xl">
+                <a href="https://twitter.com/RobBoskind">
+                  Follow me on Twitter
+                </a>
+              </button>
+            </div>
+          </footer>
         </div>
       </main>
     </>
