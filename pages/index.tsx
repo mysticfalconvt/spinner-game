@@ -25,8 +25,8 @@ export default function Home() {
             </div>
           </nav>
           <Spinner />
-          <footer className="footer  bg-base-300 content-center justify-center">
-            <div className="flex-1 flex w-full navbar-start mx-11 py-2 self-center place-content-between">
+          <footer className="footer bg-base-300 content-center justify-center">
+            <div className="flex-1 flex flex-wrap w-full navbar-start mx-11 py-2 self-center place-content-between">
               <button className="btn btn-primary p-x-5 whitespace-nowrap text-xl">
                 <a href="https://notacult.social/@rboskind">
                   Follow me on Mastodon
@@ -40,6 +40,11 @@ export default function Home() {
               <button className="btn btn-primary p-x-5 whitespace-nowrap text-xl">
                 <a href="https://twitter.com/RobBoskind">
                   Follow me on Twitter
+                </a>
+              </button>
+              <button className="btn btn-primary p-x-5 whitespace-nowrap text-xl">
+                <a href="https://github.com/mysticfalconvt/spinner-game">
+                  Github Repo
                 </a>
               </button>
             </div>
